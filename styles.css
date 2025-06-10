@@ -1,9 +1,11 @@
+/* Base Styling */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #eef1f5;
     color: #333;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 nav {
@@ -53,4 +55,49 @@ li {
 
 p {
     line-height: 1.6;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    nav a {
+        display: block;
+        margin: 8px 0;
+        font-size: 18px;
+    }
+
+    section {
+        margin: 20px 15px;
+        padding: 20px;
+    }
+}
+
+/* Dark Mode */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #121212;
+        color: #e0e0e0;
+    }
+
+    nav {
+        background-color: #1f1f1f;
+        box-shadow: none;
+    }
+
+    nav a {
+        color: #e0e0e0;
+    }
+
+    nav a:hover {
+        color: #ffcc00;
+    }
+
+    section {
+        background-color: #1e1e1e;
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+    }
+
+    h2, h3 {
+        color: #ffcc00;
+        border-color: #444;
+    }
 }
