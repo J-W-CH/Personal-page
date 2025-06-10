@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education & Awards</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+
+        nav {
+            background-color: #343a40;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 800px;
+            background-color: white;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        h2, h3 {
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 10px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="#">Education & Awards</a>
+        <a href="research.html">Research & Publications</a>
+        <a href="activities.html">Academic Activities</a>
+    </nav>
+
+    <section id="education">
+        <h2>Education</h2>
+        <ul>
+            <li><strong>PhD’s Degree (Cybersecurity of Smart Grid)</strong>, January 2020 - Present<br>
+                Gina Cody School of Engineering and Computer Science, Concordia University, Montreal, QC, Canada<br>
+                ✧ Recipient: Concordia University Graduate Fellowship</li>
+
+            <li><strong>Master’s Degree (Electrical Engineering)</strong>, September 2016 - July 2019<br>
+                College of Electric Power, South China University of Technology (SCUT), Guangzhou, China<br>
+                ✧ Recipient: First-class Scholarship of Excellent Graduate Student, SCUT</li>
+
+            <li><strong>Bachelor’s Degree (Electrical Engineering)</strong>, September 2011 - July 2015<br>
+                College of Electric Power, Southwest Jiaotong University (SWJTU), Chengdu, China<br>
+                ✧ Recipient: China National Scholarship, China National Encouragement Scholarship, Pacesetter of Excellent Student, SWJTU</li>
+        </ul>
+    </section>
+</body>
+
+</html>
