@@ -1,24 +1,85 @@
 <!DOCTYPE html>
-<html lang=\"en\">
+<html lang="en">
 
 <head>
-    <meta charset=\"UTF-8\">
-    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
-    <title>My Academic Homepage</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Juanwei Chen</title>
     <link rel="stylesheet" href="/Personal-page/styles.css">
+    <style>
+        .profile {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .profile img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        .profile-info h1 {
+            margin: 0;
+            font-size: 28px;
+            color: #004080;
+        }
+
+        .profile-info h2 {
+            font-size: 18px;
+            font-weight: normal;
+            margin-top: 5px;
+        }
+
+        .info-box {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #ffffff;
+            border-left: 5px solid #004080;
+            border-radius: 8px;
+        }
+
+        .info-box h3 {
+            margin-top: 0;
+        }
+
+        .contact {
+            margin-top: 20px;
+        }
+    </style>
 </head>
 
 <body>
     <div id="navbar"></div>
 
-    <section id=\"home\">
-        <h1>About Me</h1>
-        <img src=\"photo.jpg\" alt=\"Profile Picture\" class=\"profile-pic\">
-        <p><strong>Name:</strong> Juanwei Chen</p>
-        <p><strong>Contact:</strong> Juanwei.chen@mail.concordia.ca | Phone: (438) 365-8623</p>
-         <p><strong>Links:</strong> <a href="https://scholar.google.ca/citations?user=PX2ZktMAAAAJ&hl=en">Google Scholar</a> | <a href="linkedin.com/in/juanwei-chen-926b80219">LinkedIn</a></p>
-        <p><strong>Summary:</strong> Brief personal summary about research interests and professional goals.</p>
+    <section>
+        <div class="profile">
+            <img src="photo.jpg" alt="Juanwei Chen">
+            <div class="profile-info">
+                <h1>Juanwei Chen, PhD</h1>
+                <h2>Postdoctoral Researcher in Cybersecurity of Smart Grids</h2>
+                <p>Specializing in Distributed Energy Resources, SDN, and AI-driven defense for cyber-physical systems.</p>
+                <p><strong>Links:</strong>
+                    <a href="https://scholar.google.ca/citations?user=PX2ZktMAAAAJ&hl=en">Google Scholar</a> |
+                    <a href="https://linkedin.com/in/juanwei-chen-926b80219">LinkedIn</a>
+                </p>
+            </div>
+        </div>
+
+        <div class="info-box">
+            <h3>Research Interests</h3>
+            <p>Cyber-physical system security, smart grid resilience, distributed energy coordination, SDN, and agentic AI.</p>
+        </div>
+
+        <div class="info-box contact">
+            <h3>Contact Information</h3>
+            <p><strong>Email:</strong> juanwei.chen@mail.concordia.ca</p>
+            <p><strong>Phone:</strong> (438) 365-8623</p>
+        </div>
     </section>
+
     <script>
         document.getElementById("navbar").innerHTML = `
         <nav>
@@ -28,7 +89,7 @@
             <a href="/Personal-page/activities.html">Academic Activities</a>
         </nav>`;
     </script>
-
 </body>
 
 </html>
+
