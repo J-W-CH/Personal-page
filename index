@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang=\"en\">
+
+<head>
+    <meta charset=\"UTF-8\">
+    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
+    <title>My Academic Homepage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+
+        nav {
+            background-color: #343a40;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 800px;
+            background-color: white;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 10px;
+        }
+
+        .profile-pic {
+            width: 150px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href=\"#home\">Home</a>
+        <a href=\"education.html\">Education & Awards</a>
+        <a href=\"research.html\">Research & Publications</a>
+        <a href=\"activities.html\">Academic Activities</a>
+    </nav>
+
+    <section id=\"home\">
+        <h1>About Me</h1>
+        <img src=\"photo.jpg\" alt=\"Profile Picture\" class=\"profile-pic\">
+        <p><strong>Name:</strong> Juanwei Chen</p>
+        <p><strong>Contact:</strong> Juanwei.chen@mail.concordia.ca | Phone: (438) 365-8623</p>
+         <p><strong>Links:</strong> <a href="https://scholar.google.ca/citations?user=PX2ZktMAAAAJ&hl=en">Google Scholar</a> | <a href="linkedin.com/in/juanwei-chen-926b80219">LinkedIn</a></p>
+        <p><strong>Summary:</strong> Brief personal summary about research interests and professional goals.</p>
+    </section>
+</body>
+
+</html>
