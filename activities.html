@@ -1,36 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
+}
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Academic Activities</title>
-    <link rel="stylesheet" href="/Personal-page/styles.css">
+
+.activity-details {
+flex: 1;
+}
+</style>
 </head>
 
-<body>
-    <div id="navbar"></div>
 
-    <section>
-        <h2>Academic Activities</h2>
-        <ul>
-            <li><strong>2023 IEEE SmartGridComm</strong> – Presenter, Glasgow, United Kingdom</li>
-            <li><strong>2023 IEEE ISGT North America</strong> – Presenter, Washington, DC, USA</li>
-            <li><strong>2024 IEEE PES General Meeting</strong> – Session Chair (accepted)</li>
-            <li><strong>Cybersecurity Training Program</strong> – Participant, Concordia University</li>
-            <li><strong>Power Systems Research Competition</strong> – Finalist, 2023</li>
-            <li><strong>Reviewer</strong> – IEEE Transactions on Smart Grid, Applied Energy</li>
-        </ul>
-    </section>
-    <script>
-        document.getElementById("navbar").innerHTML = `
-        <nav>
-            <a href="/Personal-page/index.html">Home</a>
-            <a href="/Personal-page/research.html">Research & Publications</a>
-            <a href="/Personal-page/activities.html">Academic Activities</a>
-        </nav>`;
-    </script>
+<body>
+<div id="navbar"></div>
+
+
+<section>
+<h2>Academic Activities</h2>
+
+
+<div class="activity">
+<img src="images/smartgridcomm.jpg" alt="SmartGridComm">
+<div class="activity-details">
+<strong>2023 IEEE SmartGridComm</strong> – Presenter, Glasgow, United Kingdom
+</div>
+</div>
+
+
+<div class="activity">
+<img src="images/isgt.jpg" alt="ISGT">
+<div class="activity-details">
+<strong>2023 IEEE ISGT North America</strong> – Presenter, Washington, DC, USA
+</div>
+</div>
+
+
+<div class="activity">
+<img src="images/pes_general_meeting.jpg" alt="PES General Meeting">
+<div class="activity-details">
+<strong>2024 IEEE PES General Meeting</strong> – Session Chair (accepted)
+</div>
+</div>
+
+
+<div class="activity">
+<img src="images/cybersecurity_training.jpg" alt="Cybersecurity Training">
+<div class="activity-details">
+<strong>Cybersecurity Training Program</strong> – Participant, Concordia University
+</div>
+</div>
+
+
+<div class="activity">
+<img src="images/research_competition.jpg" alt="Research Competition">
+<div class="activity-details">
+<strong>Power Systems Research Competition</strong> – Finalist, 2023
+</div>
+</div>
+
+
+<div class="activity">
+<img src="images/reviewer.jpg" alt="Reviewer">
+<div class="activity-details">
+<strong>Reviewer</strong> – IEEE Transactions on Smart Grid, Applied Energy
+</div>
+</div>
+</section>
+
+
+<script>
+document.getElementById("navbar").innerHTML = `
+<nav>
+<a href="/Personal-page/index.html">Home</a>
+<a href="/Personal-page/research.html">Research & Publications</a>
+<a href="/Personal-page/activities.html">Academic Activities</a>
+</nav>`;
+</script>
+
 
 </body>
+
 
 </html>
